@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+  # ADMIN THEME OPTIONS STYLE
+--------------------------------------------------------------*/
+
+#ns_theme_options .image_preview {
+    min-height: 100px;
+}
+
+#ns_theme_options .image_preview img {
+    max-height: 250px;
+    width: auto;
+    border: 1px solid #ccc;
+}
+
+#ns_theme_options .theme_options_wrapper {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+#ns_theme_options .addon {
+    padding: 6px 12px 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+#ns_theme_options .separator {
+    margin: 25px 0 0;
+    width: 100%;
+    height: 1px;
+    background: #eee;
+}
+
+.vc_param_group-list .wpb_element_label.custom_text_for_repeater {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 420px;
+    padding: 5px 130px 5px 45px;
+    position: relative;
+    top: 30px;
+}
+
+.form-table th span {
+    display: block;
+    font-weight: normal;
+    color: darkgray;
+    font-size: 12px;
+}
